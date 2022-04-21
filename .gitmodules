@@ -1,0 +1,9 @@
+[submodule "external-libraries/code_review"]
+	path = external-libraries/code_review
+	url = https://github.com/teruto725/my-code_review
+[submodule "external-libraries/code2seq-pytorch"]
+	path = external-libraries/code2seq-pytorch
+	url = git@github.com:teruto725/my-code2seq.git
+[submodule "external-libraries/src2abs"]
+	path = external-libraries/src2abs
+	url = https://github.com/teruto725/my-src2abs
