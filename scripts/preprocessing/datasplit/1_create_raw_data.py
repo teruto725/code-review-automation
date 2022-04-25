@@ -5,7 +5,7 @@ import os
 
 # java sourceの保存 statusはtrain or val or test が入る
 def saveJavaSource(dir:str, idx: int, source_str: str, status:str,when:str ):
-  f = open("./"+ BASEDIR +"/" + when +"/"+status+"/"+str(idx)+".java", mode="w")
+  f = open("./"+ dir +"/" + when +"/"+status+"/"+str(idx)+".java", mode="w")
   f.write(source_str)
   f.close()
 
