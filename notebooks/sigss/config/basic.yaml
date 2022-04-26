@@ -1,4 +1,4 @@
-data_folder: ./data/code2seq/combined_full
+data_folder: ./temp_data
 
 checkpoint: null
 
@@ -20,7 +20,7 @@ data:
   labels_count: 10
   max_label_parts: 100 #ターゲットの最大シンボル数
   # Each token appears at least 1000 times (99.2% coverage)
-  tokens_count: 1000 
+  tokens_count: 1000
   max_token_parts: 15 #　読み込まれるサブトークンの最大数
   path_length: 15 #context　pathのlength
 
@@ -51,7 +51,7 @@ optimizer:
   decay_gamma: 0.95
 
 train:
-  n_epochs: 60 # エポック数
+  n_epochs: 2 # エポック数
   patience: 15 # eary stopping時の最小学習数
   clip_norm: 5
   teacher_forcing: 1.0
