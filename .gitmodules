@@ -7,3 +7,6 @@
 [submodule "externallibs/src2abs"]
 	path = externallibs/src2abs
 	url = https://github.com/teruto725/my-src2abs
+[submodule "externallibs/my-commode-utils"]
+	path = externallibs/my-commode-utils
+	url = git@github.com:teruto725/my-commode-utils.git
